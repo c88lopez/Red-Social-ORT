@@ -243,3 +243,11 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# ORT RS
+**/Bin/
+**/bin/
+
+*.dll
+
+RedSocial/Bin
