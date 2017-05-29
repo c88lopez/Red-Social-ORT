@@ -30,7 +30,7 @@ namespace RedSocialBusiness
             }
             catch (ExcepcionDA ex)
             {
-                throw new ExcepcionBO("No se pudo realizar la registración del usuario.", ex);
+                throw new ExcepcionBO("No se pudo realizar la autenticación del usuario.", ex);
             }
         }
 
